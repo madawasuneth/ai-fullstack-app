@@ -4,10 +4,12 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "dev": "bun run ./index.ts",
     "typecheck": "bun check"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "concurrently": "^10.0.6"
   },
   "peerDependencies": {
     "typescript": "^7"
